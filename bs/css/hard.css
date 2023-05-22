@@ -1,9 +1,17 @@
 /* font-family: 'Gowun Batang', 'Shrikhand', cursive; */
 
+<<<<<<< HEAD
 body {
+=======
+* {
+>>>>>>> e288eaa54942b16d708911a3eaa71a67767ef063
     font-family: 'Shrikhand','Gowun Batang', serif;
 }
 
 a{
+<<<<<<< HEAD
     font-family: 'Shrikhand';
+=======
+    font-family: 'Nanum Pen Script';
+>>>>>>> e288eaa54942b16d708911a3eaa71a67767ef063
 }
