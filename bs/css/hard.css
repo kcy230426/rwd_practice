@@ -15,3 +15,7 @@ a{
     font-family: 'Nanum Pen Script';
 >>>>>>> e288eaa54942b16d708911a3eaa71a67767ef063
 }
+
+li{
+    border-radius: 20px;
+}
