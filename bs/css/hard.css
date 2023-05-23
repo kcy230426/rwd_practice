@@ -1,21 +1,81 @@
 /* font-family: 'Gowun Batang', 'Shrikhand', cursive; */
 
-<<<<<<< HEAD
+
 body {
-=======
-* {
->>>>>>> e288eaa54942b16d708911a3eaa71a67767ef063
-    font-family: 'Shrikhand','Gowun Batang', serif;
+
+    font-family: 'Pretendard-Regular', serif;
+}
+
+
+
+li{
+    border-radius: 15px;
+    padding: 30px;
+}
+
+ul, li{
+    list-style: none;
+    margin-right: 20px;
 }
 
 a{
-<<<<<<< HEAD
-    font-family: 'Shrikhand';
-=======
-    font-family: 'Nanum Pen Script';
->>>>>>> e288eaa54942b16d708911a3eaa71a67767ef063
+    color:black;
+    text-decoration: none;
 }
 
-li{
-    border-radius: 20px;
+ul p{
+    margin-top: 15px;
+}
+
+#pill a{
+    border: 2px solid red;
+}
+
+.text-gray{
+    color: #757575;
+}
+
+.align_b{
+    display:flex;
+    align-items: flex-end;
+    
+}
+
+.title1{
+    font-size: 14pt;
+}
+
+.title2{
+    font-size:16pt;
+}
+
+.why:hover {
+    background-color: rgb(219, 56, 56) !important;
+    color: white     !important;
+    border: 2px solid rgb(219, 56, 56)    !important;
+    transition: 0.2s;
+}
+
+
+/* li:hover {
+    background-color: rgb(219, 56, 56) !important;
+    color: white     !important;
+    transition: 0.2s;
+} */
+
+h2 .active{
+    display: inline-block;
+    color: red;
+}
+
+h2 .active::before{
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color:red;
+    margin:0 auto 8px; 
+    /* 위 좌우 아래 */
+
 }
